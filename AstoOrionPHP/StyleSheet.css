@@ -1,0 +1,450 @@
+body
+{
+	background-image:url(imageweb/arr_plan1.gif);	
+	font-family:Meteora;
+	
+	
+}
+header
+{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 10px;
+    background-image: url(imageweb/nightsky.jpg);
+    -moz-box-shadow: 10px 10px 25px grey;
+    -webkit-box-shadow: 10px 10px 25px grey;
+    box-shadow: 10px 10px 25px grey;
+	
+}
+
+
+
+footer
+{
+    font-size: 16px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius : 10px;
+    background-image: url(imageweb/nightsky.jpg);
+    -moz-box-shadow: 10px 10px 25px grey;
+    -webkit-box-shadow: 10px 10px 25px grey;
+    box-shadow: 10px 10px 25px grey;
+    padding : 8px;
+    font-family:Arial;
+}
+
+#Banner
+{	
+	width:1400px;
+	margin:auto;
+	
+}
+#Titre
+{
+	font-family:Vermin;
+	color: whitesmoke;
+	font-size: 70px;
+	display:inline-block;
+	vertical-align:top;
+	margin-top: -200px;
+	padding-right: 150px;
+	width:75%;
+	float:right;
+	text-align:center;
+
+}
+
+#Logo
+{
+	display:inline-block;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+#browse
+{
+	
+	padding:0px;
+	margin:0px;
+	margin-left: 75px;
+}
+
+#browse li
+{
+	
+	display:inline;
+	padding:0px;
+	margin:0px;	
+	font-size:medium;
+	
+}
+
+#browse a:link, #browse a:visited
+{
+	color:#383398;
+	background:whitesmoke;
+	padding: 15px 56.5px 10px 56.5px;
+	-moz-border-radius: 8px 8px 0 0;
+        -webkit-border-radius: 8px 8px 0 0;
+        border-radius: 8px 8px 0 0;
+	text-decoration: none;
+	border: solid 2px #383398;
+}
+#browse a:hover
+{
+	background:#383398;
+	color:whitesmoke;
+}
+
+.Ok
+{
+	font-size: 16px;
+	font-family: Meteora;
+	padding: 15px 75px 10px 75px;
+	border-radius: 8px 8px 0 0;
+	color: #383398;
+	border: 2px solid #383398;
+	background-color: whitesmoke;
+	text-align: center;
+	transition-duration: 0.4s;
+}
+
+.Ok:hover
+{
+	background-color: #383398;
+	color: whitesmoke;
+}
+
+fieldset legend
+{
+	color:#383398;
+	font-size:20px;
+	font-family: Meteora;
+}
+
+fieldset
+{
+	border: 2px solid #383398;
+	border-radius: 8px 8px 0 0;
+}
+
+fieldset p
+{	
+	font-family: Meteora;
+	text-align:left;	
+	color:#383398;
+	font-size:16px;
+	
+	
+}
+input[type="text"], input[type="password"], input[type="email"], select, input[type="date"]
+{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid #383398;
+}
+
+h1
+{
+	text-align:center;
+	font-size:36px;
+	font-family:Meteora;	
+}
+#Acc img
+{
+	margin-left: 50%;
+	width: 292px;
+	height: 433px;
+	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Acc a
+{	
+	
+	margin-left: 45%;
+	color:#7c6aa7;
+}
+#Acc figcaption
+{
+	margin-top: 5px;
+	text-align:center;
+	font-style: italic;
+	color: #383398;
+}
+#Acc h1
+{
+	text-align:center;
+	font-size:36px;
+	font-family:Vermin;
+	color:#383398;
+}
+
+#Acc h2
+{
+	text-align:center;
+	margin-top:-30px;
+}
+#Signes1 th, #caract th
+{
+	text-align:center;
+	border-bottom:1px solid black;
+	padding: 10px;
+}
+
+#Signes1 th, #Signes1 td, #caract th, #caract td
+{
+	border-right: 1px solid black;
+	padding:5px;
+	padding: 10px;
+}
+
+#Signes1 tr:nth-child(even), #caract tr:nth-child(even)
+{
+	background-color:#7c6aa7;
+	color:whitesmoke;
+	padding: 10px;
+}
+
+#Signes1 tr:nth-child(odd), #caract tr:nth-child(odd)
+{
+	color:black;
+	padding: 10px;
+}
+
+#Signes1 tr:first-child, #caract tr:first-child
+{
+	font-family:Meteora;
+	background-color:whitesmoke;
+	color:#383398;
+	padding: 10px;
+}
+
+#tProds 
+{
+	font-family: Arial;
+	font-style: bold;
+	border-collapse:collapse;
+	border: 5px double #383398;
+	margin-bottom: 10px;
+	text-align:left;
+	margin-left: 33%;
+}
+
+#tProds th
+{
+	text-align:center;
+	border-bottom:1px solid black;
+	padding: 10px;
+}
+
+#tProds th, #tProds td
+{
+	border-right: 1px solid black;
+	padding:5px;
+	padding: 10px;
+}
+
+#tProds tr:nth-child(even)
+{
+	background-color:#7c6aa7;
+	color:whitesmoke;
+	padding: 10px;
+}
+
+#tProds tr:nth-child(odd)
+{
+	color:black;
+	padding: 10px;
+}
+
+#tProds tr:first-child
+{
+	font-family:Meteora;
+	background-color:whitesmoke;
+	color:#383398;
+	padding: 10px;
+}
+
+#Signes1 img
+{
+	height:70px;
+	width:70px;
+	border: 2px solid black;
+}
+
+#caract
+{			
+	border-collapse:collapse;
+	border: 5px double #383398;
+	margin-bottom: 10px;
+	text-align:left;
+	margin-left: 17.5%;
+	height: 100px;
+}
+
+table
+{
+	display:inline-table;	
+	font-family:Meteora;
+	text-align: center;
+	font-size:16px;
+}
+#Signes1
+{
+	font-family: Arial;
+	font-style: bold;
+	border-collapse:collapse;
+	border: 5px double #383398;
+	margin-bottom: 10px;
+	text-align:left;
+	margin-left: 11%;
+	
+}
+section
+{
+	width:100%;
+	margin:auto;
+	
+}
+#Content article
+{
+	padding-left: 10px;
+	display:inline-block;
+	vertical-align:top;
+	width:70%;
+}
+#Content aside
+{
+	display:inline-block;
+	vertical-align:top;
+	width:28%;
+}
+
+article h2
+{
+	font-size:24px;
+}
+
+article h3
+{
+	font-size:18px;
+	font-style:italic;
+	color:#7c6aa7;
+}
+#Horos img
+{
+	width:40px;
+	height:40px;
+	margin-bottom:-10px;
+}
+#Horos h2
+{
+	color:#383398;
+	text-align: center;
+}
+
+#Horos p
+{
+	margin-top:-15px;
+}
+
+
+#Info a:link, #Info a:visited
+{
+	text-decoration: none;
+	color:#383398;	
+}
+#Info
+{
+	text-align:center;
+	display:block;
+	font-family:Meteora;
+	
+}
+#Info h3
+{ 
+	color:#383398;
+	background:whitesmoke;
+	padding: 10px 22px 10px 22px;
+	-moz-border-radius: 8px 0px 0 0;
+    -webkit-border-radius: 8px 0px 0 0;
+    border-radius: 8px 0px 0 0;
+	font-style:none;
+	border: solid 2px #383398;
+	width:148px;
+	margin-left: 25%;
+	text-align:center;
+
+	
+}
+
+#Info img
+{
+	
+	height:175px;
+	width:175px;
+}
+.anchors li
+{	
+	flex: 0 1 auto;
+	list-style-type: none;
+}
+
+.anchors a:visited, .anchors a:link
+{
+	
+	color:#383398;
+	
+	
+}
+.credits ul, .anchors ul
+{
+	display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;    
+	margin: 0;
+    padding: 0;
+}
+
+.credits li
+{
+    display: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+    color:whitesmoke;
+	margin : 10px 10px 10px 10px;
+}
+
+.credits a:visited, .credits a:link
+{
+	
+	color:whitesmoke;
+	font: bold;
+	font-size:18px;
+}
+
+
+
+
+
+@font-face 
+{
+	font-family: 'Meteora';
+	src: url('font/Meteora.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'Vermin';
+    src: url('font/Vermin.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
